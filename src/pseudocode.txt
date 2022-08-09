@@ -1,0 +1,34 @@
+# Grocery shop
+initial items: 
+  * rupiah
+  - Egg: 2000/pcs
+  - Mie: 2000/pcs
+  - Chicken: 35000/one
+  - Cucumber: 1000/pcs
+  - Corn: 5000/pcs
+
+initial store: [] (empty array)
+initial total amount: 0
+initial price total: 0
+
+if user click increase button
+  item + 1
+  total price => update
+  total amount =>  update
+
+if user click decrease button
+  if amount item == 0 
+    don't do anything
+  else
+    item - 1
+    total price => update
+    total price => update
+
+if user click clear cart
+  delete all item
+  total price => update
+  total price => update
+
+
+
+    
